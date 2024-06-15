@@ -1,0 +1,17 @@
+[
+    {
+        "titolo": "Comprare la spesa",
+        "descrizione": "Latte, Pane, Formaggio, Frutta",
+        "stato": "in sospeso"
+    },
+    {
+        "titolo": "Completare il rapporto di progetto",
+        "descrizione": "Finire la bozza finale e inviarla al responsabile",
+        "stato": "in corso"
+    },
+    {
+        "titolo": "Chiamare l'idraulico",
+        "descrizione": "Riparare il lavandino che perde in cucina",
+        "stato": "fatto"
+    }
+]

@@ -15,7 +15,7 @@ createApp({
 
     mounted() {
 
-        axios.get("../server.php").then(response => {
+        axios.get("../list.php").then(response => {
             this.todolist = response.data;
         });
 
