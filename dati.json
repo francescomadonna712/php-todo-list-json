@@ -1,17 +1,1 @@
-[
-    {
-        "titolo": "Comprare la spesa",
-        "descrizione": "Latte, Pane, Formaggio, Frutta",
-        "stato": "in sospeso"
-    },
-    {
-        "titolo": "Completare il rapporto di progetto",
-        "descrizione": "Finire la bozza finale e inviarla al responsabile",
-        "stato": "in corso"
-    },
-    {
-        "titolo": "Chiamare l'idraulico",
-        "descrizione": "Riparare il lavandino che perde in cucina",
-        "stato": "fatto"
-    }
-]
+[{"titolo":"Comprare la spesa","descrizione":"Latte, Pane, Formaggio, Frutta","stato":"in sospeso"},{"titolo":"Completare il rapporto di progetto","descrizione":"Finire la bozza finale e inviarla al responsabile","stato":"in corso"},{"titolo":"Chiamare l'idraulico","descrizione":"Riparare il lavandino che perde in cucina","stato":"fatto"},{"titolo":"prova","descrizione":"prova1"},{"titolo":"prova","descrizione":"prova1"},{"titolo":"prova","descrizione":"prova1"},{"titolo":"ciao","descrizione":"prova1"},{"titolo":"ciao","descrizione":"dia"},{"titolo":"fare la pasta","descrizione":"mette l'acqua"},{"titolo":"prova","descrizione":"prova1"},{"titolo":"prova","descrizione":"prova1"}]

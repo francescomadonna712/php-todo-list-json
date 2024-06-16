@@ -19,6 +19,14 @@ createApp({
 
 
     methods: {
+
+        getTaskList() {
+            axios.get(this.apriUrl).then(results => {
+                console.log("risultati:", results.data);
+                this.todolist = results.data;
+            });
+        },
+
         addTask() {
             console.log("task aggiunta", this.newTaskTitle);
 
@@ -39,6 +47,7 @@ createApp({
 
             axios.post(this.apriUrl, newToDo, this.postRequestConfig).then(results => {
                 console.log("risultati:", results.data);
+                this.todolist = results.data;
             });
         }
     },
@@ -47,16 +56,12 @@ createApp({
     mounted() {
         console.log("recupero dati");
 
-        axios.get(this.apriUrl).then(results => {
-            console.log("risultati:", results.data);
-            this.todolist = results.data;
-        })
-
-
-
+        this.getTaskList();
 
     },
-
-
-
 }).mount('#app')
+
+
+
+
+
